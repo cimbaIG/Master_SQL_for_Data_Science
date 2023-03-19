@@ -20,7 +20,7 @@ FROM employees;
 
 SELECT first_name ||' '|| last_name AS full_name, (salary > 140000) AS is_highly_paid
 FROM employees
-ORDER BY boolean_column DESC;
+ORDER BY is_highly_paid DESC;
 
 SELECT first_name ||' '|| last_name AS full_name, (salary > 140000) AS is_highly_paid
 FROM employees
